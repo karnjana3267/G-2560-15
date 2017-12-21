@@ -1,0 +1,323 @@
+{
+  "level": [
+    {
+      "type": "image",
+      "key": "mono",
+      "url": "assets/images/mono.png",
+      "overwrite": false
+    },
+    {
+      "type": "tilemap",
+      "key": "level1",
+      "url": "assets/tilemap/level1.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "spritesheet",
+      "key": "tile_set",
+      "url": "assets/tilemap/tile_set.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "atlas",
+      "key": "man",
+      "textureURL": "assets/atlas/man.png",
+      "atlasURL": "assets/atlas/man.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "robot",
+      "textureURL": "assets/atlas/robot.png",
+      "atlasURL": "assets/atlas/robot.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "robotgood",
+      "textureURL": "assets/atlas/robotgood.png",
+      "atlasURL": "assets/atlas/robotgood.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "audio",
+      "key": "music",
+      "urls": ["assets/sound/music.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "jump",
+      "urls": ["assets/sound/jump.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "spritesheet",
+      "key": "bullet",
+      "url": "assets/images/bullet.png",
+      "frameWidth": 30,
+      "frameHeight": 28,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "tilemap",
+      "key": "level2",
+      "url": "assets/tilemap/level2.json",
+      "format": "TILED_JSON"
+    },
+    {
+      "type": "atlas",
+      "key": "hero",
+      "textureURL": "assets/atlas/hero.png",
+      "atlasURL": "assets/atlas/hero.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "image",
+      "key": "bg",
+      "url": "assets/images/bg.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "hp",
+      "url": "assets/images/hp.png",
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "bg2",
+      "url": "assets/images/bg2.png",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "Bing",
+      "textureURL": "assets/atlas/Bing.png",
+      "atlasURL": "assets/atlas/Bing.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "Ice",
+      "textureURL": "assets/atlas/Ice.png",
+      "atlasURL": "assets/atlas/Ice.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "image",
+      "key": "Heart",
+      "url": "assets/images/Heart.png",
+      "overwrite": false
+    },
+    {
+      "type": "spritesheet",
+      "key": "exp",
+      "url": "assets/images/explosion.png",
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "EndStory",
+      "url": "assets/images/EndStory.png",
+      "overwrite": false
+    },
+    {
+      "type": "audio",
+      "key": "music2",
+      "urls": ["assets/sound/level2.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "musicstory",
+      "urls": ["assets/sound/musicstory.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "boom",
+      "urls": ["assets/sound/boom.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "pick",
+      "urls": ["assets/sound/pick.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "shoot",
+      "urls": ["assets/sound/shoot.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "end",
+      "urls": ["assets/sound/end.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "win",
+      "urls": ["assets/sound/win.ogg"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "open",
+      "urls": ["assets/sound/open.ogg"],
+      "autoDecode": true
+    }
+  ],
+  "start": [
+    {
+      "type": "image",
+      "key": "tap-to-start",
+      "url": "assets/images/tap-to-start.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "mstart",
+      "url": "assets/images/mstart.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "mstory",
+      "url": "assets/images/mstory.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "mteam",
+      "url": "assets/images/mteam.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "team",
+      "url": "assets/images/team.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "dev",
+      "url": "assets/images/dev.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "P1",
+      "url": "assets/images/P1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "P2",
+      "url": "assets/images/P2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "P3",
+      "url": "assets/images/P3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "P4",
+      "url": "assets/images/P4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "P5",
+      "url": "assets/images/P5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "P6",
+      "url": "assets/images/P6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "gameo",
+      "url": "assets/images/gameo.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "backmenu",
+      "url": "assets/images/backmenu.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "playagain",
+      "url": "assets/images/playagain.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "mname",
+      "url": "assets/images/mname.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg1",
+      "url": "assets/images/bg1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "next",
+      "url": "assets/images/next.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "HowTo",
+      "url": "assets/images/HowTo.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "How",
+      "url": "assets/images/How.png",
+      "overwrite": false
+    }
+  ],
+  "preload": [{
+    "type": "image",
+    "key": "loading",
+    "url": "assets/images/loading.png",
+    "overwrite": false
+  }],
+  "meta": {
+    "generated": "1513816175327",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}
